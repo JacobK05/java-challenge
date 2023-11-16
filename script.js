@@ -3,6 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
   function generatePassword() {
     var password = '';
+    var promptName = ['hasSpecial', 'hasNum', 'hasLowercase', 'hasUppercase']
     var passwordLength = prompt('Between 8-128, how many characters would you like your password to be?');
     passwordLength = parseInt(passwordLength);
     
@@ -38,7 +39,8 @@ var generateBtn = document.querySelector("#generate");
       var selectedChar = characterPool[randomIndex];
       password += selectedChar;
     }
-  
+   
+
     return password;
   }
 
