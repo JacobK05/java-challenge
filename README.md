@@ -6,7 +6,7 @@ I was tired of having to come up with different passwords for all my accounts be
 
 
 ### Usage 
-To us the website visit the live url link: 
+To us the website visit the live url link: https://jacobk05.github.io/java-challenge/ 
 
 
 
